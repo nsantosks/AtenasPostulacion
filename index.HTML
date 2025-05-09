@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postulación Nestor Santos - Ingeniero de Datos y Estrategia</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@400;500&display=swap');
+
+        :root {
+            --primary-color: #005A9C; /* Azul corporativo oscuro */
+            --secondary-color: #00AEEF; /* Azul más brillante para acentos */
+            --text-color: #333333;
+            --light-text-color: #555555;
+            --bg-color: #f8f9fa;
+            --card-bg: #ffffff;
+            --border-color: #e0e0e0;
+            --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            --hover-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.7;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 900px;
+            width: 100%;
+            margin: 30px auto;
+            padding: 0 20px; /* Padding lateral para pantallas pequeñas */
+            box-sizing: border-box;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 30px 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+        }
+
+        header img.profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            object-fit: cover;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.8em;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        header h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.4em;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.9);
+            margin-top: 0;
+        }
+
+        .section {
+            background-color: var(--card-bg);
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .section:hover {
+            box-shadow: var(--hover-shadow);
+        }
+
+        .section h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.8em;
+            color: var(--primary-color);
+            margin-top: 0;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--secondary-color);
+            display: inline-block;
+        }
+
+        .section p {
+            font-size: 1.05em;
+            color: var(--light-text-color);
+            margin-bottom: 1em;
+        }
+
+        .section strong {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .highlight {
+            background-color: #e7f3fe; /* Un azul muy claro */
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .dashboard-showcase {
+            text-align: center;
+        }
+
+        .dashboard-showcase img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid var(--border-color);
+            border-radius: 8px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .dashboard-showcase img:hover {
+            transform: scale(1.03);
+            box-shadow: 0 5px 15px rgba(0,90,156,0.3);
+        }
+
+        .dashboard-caption {
+            font-size: 0.95em;
+            font-style: italic;
+            color: #777;
+            margin-bottom: 25px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9em;
+            color: var(--light-text-color);
+            border-top: 1px solid var(--border-color);
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2em;
+            }
+            header h2 {
+                font-size: 1.2em;
+            }
+            .section h3 {
+                font-size: 1.5em;
+            }
+            .section p {
+                font-size: 1em;
+            }
+        }
+        @media (max-width: 480px) {
+            header img.profile-pic {
+                width: 120px;
+                height: 120px;
+            }
+             header h1 {
+                font-size: 1.8em;
+            }
+            header h2 {
+                font-size: 1em;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://www.dropbox.com/scl/fi/ssmwr3w27v0e50tdzicgm/ProfileV01.jpg?rlkey=6rio5ubg2k4o0kqqwux8ug2dp&dl=1" alt="Foto de Perfil Nestor Santos" class="profile-pic">
+            <h1>Nestor Santos</h1>
+            <h2>Ingeniero Especialista en Inteligencia Comercial</h2>
+        </header>
+
+        <div class="section" id="introduction">
+            <h3>Mi Propuesta de Valor para Atenas Consultores</h3>
+            <p>Soy Ingeniero Egresado de la Universidad de Carabobo con <strong>más de 5 años de experiencia</strong> en herramientas de inteligencia comercial. Considero que puedo aportar valor significativo a Atenas Consultores desde múltiples frentes, alineándome directamente con su propósito y los servicios que ofrecen.</p>
+        </div>
+
+        <div class="section" id="analytical-skills">
+            <h3>Capacidad Analítica y Dominio Técnico</h3>
+            <p>Mi <span class="highlight">capacidad analítica</span> y dominio de herramientas como <strong>Power BI, Power Pivot, Excel Avanzado y SQL</strong> son fundamentales para el núcleo de su negocio. Puedo transformar los datos que recopilan sobre el comportamiento de consumo de los hogares venezolanos, el sell-out del canal autoservicio o el desempeño de actividades promocionales, en <span class="highlight">información rápida, consistente y confiable</span>, tal como lo buscan sus clientes.</p>
+            <p>Con más de 5 años de experiencia desarrollando y analizando KPIs, puedo generar <span class="highlight">insights accionables</span> que faciliten la toma de decisiones estratégicas para la industria manufacturera y retailers. Por ejemplo, podría optimizar la visualización y el análisis del "árbol de decisión del comprador" o la efectividad de las estrategias comerciales y de posicionamiento de marca que ustedes diseñan.</p>
+        </div>
+
+        <div class="section" id="integral-profile">
+            <h3>Visión Integral y Experiencia Empresarial</h3>
+            <p>Poseo un <span class="highlight">perfil integral con más de 8 años de demostrada experiencia</span> en áreas operativas, administrativas y financieras, incluyendo compras, manufactura, planificación y ventas. Esto me proporciona una <span class="highlight">comprensión 360°</span> de los desafíos y necesidades de sus clientes, clave para ser ese <strong>"aliado estratégico"</strong> que ustedes aspiran a ser.</p>
+            <p>Entiendo no solo los datos, sino el contexto detrás de ellos, lo que enriquece el análisis y permite ofrecer soluciones más efectivas y adaptadas a la realidad del mercado venezolano. Esta perspectiva es especialmente valiosa al analizar la cesta de compra, las formas de pago o incluso al evaluar el impacto de factores como la educación y la salud en el consumo.</p>
+        </div>
+        
+        <div class="section" id="soft-skills">
+            <h3>Orientación al Logro y Habilidades Interpersonales</h3>
+            <p>Me considero un profesional con una alta <span class="highlight">orientación al logro</span> y profundamente apasionado. Me apoyo en herramientas clave como la <strong>inteligencia emocional, negociación y escucha efectiva</strong> para colaborar y desarrollar equipos de alto desempeño. Estas habilidades pueden contribuir tanto internamente en Atenas Consultores, fomentando un ambiente de colaboración y eficiencia, como externamente, en la relación con los clientes, asegurando la calidad del servicio integral y la confianza que sus clientes depositan en ustedes.</p>
+        </div>
+
+        <div class="section" id="summary">
+            <h3>Resumen de Mi Aporte</h3>
+            <p>En resumen, mi formación profesional y experiencia me permiten ofrecer a su reconocida firma la <strong>capacidad técnica</strong> para extraer valor de los datos, la <strong>visión de negocio</strong> para contextualizar esos datos y las <strong>habilidades interpersonales</strong> para integrarme eficazmente y potenciar los resultados. Todo ello enfocado en ayudar a Atenas Consultores a cumplir su propósito y a seguir siendo un referente en el mercado venezolano.</p>
+        </div>
+        
+        <div class="section dashboard-showcase" id="dashboard-example">
+            <h3>Ejemplo de Dashboard Interactivo</h3>
+            <p>A continuación, una muestra de uno de los tableros que he construido (datos con fines ilustrativos):</p>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNzE1MGYxMGMtMTU0MC00NGI5LWE5NTUtZTg0MmVkMjQyZDNjIiwidCI6IjZmMGJiNzJmLTUzNzctNGRkZi05MzZhLWI2YzcyYmYyMWFlMiIsImMiOjF9" target="_blank" title="Ver Tablero Interactivo: Sinapxi - Del Granjero 2025-01">
+                <img src="https://www.dropbox.com/scl/fi/7vqkc2gsgy3xizy0agx59/CapturaDashboard.JPG?rlkey=kzm11w5zkzinvlm5xsets3t1z&dl=1" alt="Vista previa del Tablero Power BI - Del Granjero">
+            </a>
+            <p class="dashboard-caption">Haga clic en la imagen para explorar el tablero interactivo en Power BI.</p>
+        </div>
+
+        <div class="section" id="contact">
+            <h3>Oportunidad de Entrevista</h3>
+            <p>Agradecería enormemente la oportunidad de una entrevista personal o virtual para discutir cómo mis habilidades y experiencia pueden beneficiar a Atenas Consultores.</p>
+            <a href="https://www.linkedin.com/in/ingnsantos/" target="_blank" class="cta-button">
+    Ver mi Perfil en LinkedIn
+</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© <span id="currentYear"></span> Nestor Santos. Todos los derechos reservados.</p>
+        <p>Diseñado como parte de mi postulación a Atenas Consultores.</p>
+        <!-- Puedes añadir enlaces a LinkedIn, GitHub, etc. aquí -->
+        <!-- <p><a href="tu_linkedin" target="_blank">LinkedIn</a> | <a href="tu_github" target="_blank">GitHub</a></p> -->
+    </footer>
+
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
